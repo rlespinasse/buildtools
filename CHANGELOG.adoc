@@ -1,0 +1,5 @@
+= Changelog
+
+List of all changes on this project:
+
+* See https://github.com/conventional-changelog/conventional-changelog

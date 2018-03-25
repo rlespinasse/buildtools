@@ -1,0 +1,32 @@
+= Build Tools documentation
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings:
+:idprefix:
+:idseparator: -
+:linkattrs:
+// URIs:
+:uri-changelog: https://github.com/rlespinasse/buildtools/blob/master/CHANGELOG.adoc
+
+[caption="RELEASE STATUS"]
+TIP: See the {uri-changelog}[CHANGELOG^] for details.
+
+Build Tools help you to manage APIs projects
+
+== Get a project
+
+[source,shell]
+----
+» make get-it REPOSITORY=api-a
+go get -u github.com/rlespinasse/api-a
+----
+
+== Run a project
+
+[source,shell]
+----
+» make run-it REPOSITORY=api-a
+go run ~/go/src/github.com/rlespinasse/api-a/main.go
+Do some API 'a' stuff
+----
