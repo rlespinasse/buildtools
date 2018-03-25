@@ -1,5 +1,5 @@
 name: buildtools
 title: Build Tools
-version: 'v1.0'
+version: 'v1.1-SNAPSHOT'
 nav:
 - modules/ROOT/nav.adoc
